@@ -1,0 +1,366 @@
+.favorite__header {
+  /* 타이틀 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 40px 30px 0px 0px;
+  gap: 10px;
+
+  width: 1200px;
+  height: 90px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.favorite__header__title {
+  /* Frame 32 */
+
+  width: 1143px;
+  height: 50px;
+
+  background: rgba(255, 255, 255, 0.01);
+  box-shadow: 0px 1px 0px #ceced9;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  position: relative;
+  left: 33%;
+}
+.favorite__header__title__text {
+  /* 찜목록 */
+
+  position: absolute;
+  width: 170px;
+  height: 42px;
+  left: 0px;
+  top: 0px;
+
+  /* Heading 3 */
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 130%;
+  /* identical to box height, or 42px */
+  letter-spacing: -0.04em;
+
+  color: #212529;
+}
+.favorite__header__cancle {
+  /* Character/close */
+
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 1119px;
+  top: 4px;
+}
+.favorite__header__cancle_text {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.favorite__header__cancle_text:before,
+.favorite__header__cancle_text:after {
+  position: absolute;
+  left: 15px;
+  top: 15px;
+  content: " ";
+  height: 20px;
+  width: 2px;
+  background-color: #495057;
+}
+.favorite__header__cancle_text:before {
+  transform: rotate(45deg);
+}
+.favorite__header__cancle_text:after {
+  transform: rotate(-45deg);
+}
+.favorite__items {
+  /* Frame 41940 */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 23px 30px;
+  gap: 10px;
+
+  width: 1140px;
+  height: 246px;
+  position: relative;
+  left: 21%;
+
+  background: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.favorite__item {
+  /* Frame 41939 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 427px;
+
+  width: 1087px;
+  height: 200px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.favorite__item__detail {
+  /* Frame 41938 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+
+  width: 577px;
+  height: 200px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.favorite__item__detail__image {
+  /* Rectangle 2913 */
+
+  width: 200px;
+  height: 200px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.favorite__item__detail__content {
+  /* Frame 41937 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 95px;
+
+  width: 361px;
+  height: 200px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.favorite__item__detail__content__description {
+  /* Frame 41936 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+
+  margin: 0 auto;
+  width: 361px;
+  height: 83px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.favorite__item__detail__content__description_title {
+  /* 내맘대로 선인장 */
+
+  width: 361px;
+  height: 42px;
+
+  /* Heading 3 */
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 130%;
+  /* identical to box height, or 42px */
+  letter-spacing: -0.04em;
+
+  color: #212529;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.favorite__item__detail__content__description__price__container {
+  /* Frame 41514 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 361px;
+  height: 33px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.favorite__item__detail__content__description__price {
+  /* 48,000 */
+
+  width: 80px;
+  height: 32px;
+
+  /* Heading 4 */
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 135%;
+  /* or 32px */
+  text-align: center;
+  letter-spacing: -0.04em;
+
+  color: #212529;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.favorite__item__detail__content__description__unit__container {
+  /* Frame 41515 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1px 0px 0px;
+  gap: 10px;
+
+  width: 21px;
+  height: 33px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.favorite__item__detail__content__description__unit {
+  /* 원 */
+
+  width: 21px;
+  height: 32px;
+
+  /* Heading 4 */
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 135%;
+  /* or 32px */
+  text-align: center;
+  letter-spacing: -0.04em;
+
+  color: #212529;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.favorite__item__cart__add {
+  /* Group 41147 */
+
+  /* margin: 0 auto; */
+  width: 197.47px;
+  height: 50px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.favorite__item__cart__add__btn__container {
+  /* Group 41001 */
+
+  position: absolute;
+  width: 126px;
+  height: 27px;
+  left: 238px;
+  top: 21px;
+}
+.favorite__item__cart__add__btn {
+  /* Rectangle 2916 */
+
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 197.47px;
+  height: 50px;
+  left: 0px;
+  top: 150px;
+
+  background: #37b24d;
+  border: 1px solid #37b24d;
+  border-radius: 89px;
+  cursor: pointer;
+}
+
+.favorite__item__cart__add__btn__label {
+  /* 장바구니 추가 */
+
+  /* Body 1 */
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  /* identical to box height, or 27px */
+  text-align: center;
+  letter-spacing: -0.04em;
+
+  color: #ffffff;
+  cursor: pointer;
+}
+.favorite__item__favorite__btn__container {
+  /* favorite_FILL0_wght300_GRAD0_opsz24 1 */
+
+  margin: 0 auto;
+  width: 24px;
+  height: 24px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}

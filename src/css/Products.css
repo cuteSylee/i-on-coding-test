@@ -1,0 +1,327 @@
+.products {
+  /* Frame 41536 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 60px;
+
+  width: 1920px;
+  height: 1352px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+}
+.products__container {
+  /* Frame 41000 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 100px 0px;
+  gap: 53px;
+
+  width: 1200px;
+  height: 1352px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.products__title {
+  /* Group 40999 */
+
+  width: 176px;
+  height: 32px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.products__title__text {
+  /* PROUDUCT LIST */
+
+  position: relative;
+  width: 176px;
+  height: 32px;
+  left: 0px;
+  top: 40px;
+
+  /* Heading 4 */
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 135%;
+  /* or 32px */
+  letter-spacing: -0.04em;
+
+  color: #212529;
+}
+.products__contents1 {
+  /* Frame 41926 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 41px;
+
+  width: 1200px;
+  height: 507px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.products__contents__row1 {
+  /* Frame 41927 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 63px;
+
+  margin: 0 auto;
+  width: 1198px;
+  height: 507px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.products__contents__row2 {
+  /* Frame 41928 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 41px;
+
+  width: 1200px;
+  height: 507px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+.products__contents2 {
+  /* Frame 41928 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 41px;
+
+  width: 1200px;
+  height: 507px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+.products__items {
+  /* Frame 41932 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  margin: 0 auto;
+  width: 360px;
+  height: 507px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.products__item {
+  /* Rectangle 2913 */
+
+  width: 360px;
+  height: 360px;
+
+  /* background: url(pexels-katrin-bolovtsova-9130766.jpg); */
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.products__btns {
+  display: none;
+  position: relative;
+  bottom: 40px;
+  left: 280px;
+  margin-bottom: -40px;
+}
+.products__item:hover {
+  filter: brightness(0.7);
+  transition: filter 0.7s;
+}
+
+.products__item:hover + .products__btns {
+  display: block;
+}
+
+.products__btns:hover {
+  display: block;
+}
+
+.products__btns:hover + .products__item {
+  filter: brightness(0.7);
+}
+
+.products__label__container {
+  /* Frame 41523 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 32px 0px;
+  gap: 8px;
+
+  width: 361px;
+  height: 147px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.products__item:hover + .products__label__container {
+  padding: 0px;
+}
+.products__label {
+  /* 내맘대로 선인장 */
+
+  width: 361px;
+  height: 42px;
+
+  /* Heading 3 */
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 130%;
+  /* identical to box height, or 42px */
+  letter-spacing: -0.04em;
+
+  color: #212529;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.products__price__container {
+  /* Frame 41514 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 361px;
+  height: 33px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.products__price {
+  /* 24,000 */
+
+  width: 79px;
+  height: 32px;
+
+  /* Heading 4 */
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 135%;
+  /* or 32px */
+  text-align: center;
+  letter-spacing: -0.04em;
+
+  color: #212529;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.products__price__unit__container {
+  /* Frame 41515 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1px 0px 0px;
+  gap: 10px;
+
+  width: 21px;
+  height: 33px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.products__price__unit {
+  /* 원 */
+
+  width: 21px;
+  height: 32px;
+
+  /* Heading 4 */
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 135%;
+  /* or 32px */
+  text-align: center;
+  letter-spacing: -0.04em;
+
+  color: #212529;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}

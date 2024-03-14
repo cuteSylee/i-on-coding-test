@@ -1,0 +1,95 @@
+/* Slider */
+.main_top {
+  /* main_top */
+
+  width: 1920px;
+  height: 600px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+
+  background-color: black;
+}
+
+.main_top .main_slider_group {
+  /* Group 44 */
+
+  position: absolute;
+  width: 1200px;
+  height: 428.5px;
+  left: 360px;
+  top: 86px;
+}
+
+.main_top .main_slider_group .main_title {
+  /* title */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+
+  width: 1200px;
+  height: 243px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.main_top .main_slider_group .main_title .main_title_item {
+  /* METAPLANTS */
+
+  width: 520px;
+  height: 94px;
+
+  /* Display1 */
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 130%;
+  /* identical to box height, or 94px */
+  text-align: center;
+  letter-spacing: -0.04em;
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.main_top .main_background {
+  /* main_backgound */
+
+  position: absolute;
+  width: 1920px;
+  height: 600px;
+  /* left: 0px; */
+  /* top: 0px; */
+
+  background: #ffffff;
+}
+.main_top .main_background .main_background_item {
+  /* main_backgound */
+  /* dim */
+
+  position: absolute;
+  width: 1920px;
+  height: 600px;
+  left: calc(50% - 1920px / 2);
+  top: calc(50% - 600px / 2);
+
+  background: linear-gradient(
+      0deg,
+      rgba(32, 32, 32, 0.25),
+      rgba(32, 32, 32, 0.25)
+    ),
+    url(data/meta.json);
+}

@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Outlet, Route, Routes } from "react-router-dom";
+import Main from "./pages/Main";
+import Nav from "./components/Nav";
+import Cart from "./pages/Cart";
+import Favorite from "./pages/Favorite";
 
-function App() {
+const Layout = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Nav />
+      {/* 자식 요소를 렌더링 해줌 */}
+      <Outlet />
     </div>
   );
-}
+};
+const App = () => {
+  return (
+    <div className="app">
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={<Main />} />
+          <Route path="/cart" element={<Cart />} />
+          <Route path="/favorite" element={<Favorite />} />
+        </Route>
+      </Routes>
+    </div>
+  );
+};
 
 export default App;

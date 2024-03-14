@@ -1,13 +1,620 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Pretendard", sans-serif;
+  /* width: 1920px;
+  height: 2495px;
+  padding: 0px 360px; */
+  /* PC_메인 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: relative;
+  width: 1920px;
+  height: 2495px;
+  left: 10%;
+
+  background: #ffffff;
+}
+input[type="checkbox"] {
+  /* Checkbox */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  width: 24px;
+  height: 24px;
+
+  background: #ffffff;
+  border: 1px solid #bdbdbd;
+  border-radius: 2px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input[type="checkbox"]:hover {
+  /* Checkbox */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  width: 24px;
+  height: 24px;
+
+  background: rgba(250, 248, 255, 0.05);
+  border: 1px solid #2b8a3e;
+  border-radius: 2px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    /* Mobile_메인 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: relative;
+    width: 375px;
+    height: 1814px;
+    left: 164px;
+    top: 504px;
+
+    background: #ffffff;
+  }
+}
+/* Nav */
+nav {
+  /* Frame 41510 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  /* padding: 0px 360px; */
+  gap: 548px;
+
+  width: 1920px;
+  height: 80px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+nav .logo {
+  /* logo */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  margin: 0 auto;
+  width: 132.45px;
+  height: 80px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  text-decoration: none;
+}
+
+nav .logo .logo__item {
+  /* METAPLANTS */
+
+  width: 132.45px;
+  height: 15.36px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  color: rgba(43, 138, 62, 1);
+}
+
+nav .gnb_menu {
+  /* gnb_menu */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  margin: 0 auto;
+  width: 148px;
+  height: 80px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+nav .gnb_menu .menu_btn_customer_service {
+  /* menu_btn_customer_service */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 32px;
+  gap: 20px;
+
+  width: 10px;
+  height: 80px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+nav .gnb_menu .menu_btn_customer_service .menu_btn_customer_service_item {
+  /* Frame 41839 */
+
+  width: 32px;
+  height: 32px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Slider */
+.main__top {
+  /* main_top */
+
+  width: 1920px;
+  height: 600px;
+  position: absolute;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.swiper {
+  /* Group 44 */
+
+  /* text + btn */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 48px;
+  height: 700px;
+
+  position: absolute;
+  width: 1200px;
+  height: 339px;
+  text-align: center;
+  /* left: 0px; */
+  top: calc(50% - 339px / 2 - 44.5px);
+}
+.swiper-slide .swiper-slide-active {
+  height: 700px;
+}
+.main__container {
+  height: 700px;
+}
+#mainTitle {
+  /* METAPLANTS */
+
+  width: 520px;
+  height: 94px;
+
+  /* Display1 */
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 130%;
+  /* identical to box height, or 94px */
+  text-align: center;
+  letter-spacing: -0.04em;
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.main__description {
+  /* text */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+
+  width: 1200px;
+  height: 125px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+#mainContent {
+  /* 고품질의 식물과 전문가의 조언을 제공하여 고객들에게 만족스러운 쇼핑 경험을 선사하는 메타플랜츠는 식물은 건강하고 아름답게 자란다는 것을 보장하며, 실내 및 실외에서 모두 훌륭하게 성장합니다. 우리의 목표는 고객들이 집안에 자연의 아름다움을 느낄 수 있도록 돕는 것입니다. METAPLANTS에서 멋진 식물을 찾아보세요! */
+
+  width: 1200px;
+  height: 108px;
+
+  /* Body 1 */
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  /* or 27px */
+  text-align: center;
+  letter-spacing: -0.04em;
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.main__btn {
+  /* main_btn */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 32px;
+  gap: 10px;
+
+  width: 136px;
+  height: 48px;
+  margin: 0 auto;
+
+  background: #37b24d;
+  border-radius: 30px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.main__btn__text {
+  /* 더 알아보기 */
+
+  width: 72px;
+  height: 24px;
+
+  font-family: "Pretendard Variable";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  letter-spacing: -0.015em;
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.swiper-button-prev {
+  /* Vector */
+  top: 150px;
+  --swiper-theme-color: #fff;
+}
+
+.swiper-button-next {
+  --swiper-theme-color: #fff;
+}
+.swiper-pagination-bullet-active {
+  /* Rectangle 2912 */
+
+  width: 43px;
+  height: 16px;
+
+  background: #fcc419;
+  border-radius: 50px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+.swiper-pagination-bullet {
+  /* Ellipse 2 */
+
+  width: 16px;
+  height: 16px;
+
+  background: #f8f9fa;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* Modal */
+.ant-modal-content {
+  /* 장바구니 추가 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px 0px 19px;
+  gap: 15px;
+
+  position: relative;
+  width: 684px;
+  height: 285px;
+
+  background: linear-gradient(
+    143.09deg,
+    #ffffff 0.73%,
+    rgba(255, 255, 255, 0.9) 98.97%
+  );
+  /* 1 */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+.ant-modal-header {
+  /* Frame 32 */
+
+  width: 630px;
+  height: 50px;
+
+  background: rgba(255, 255, 255, 0.01);
+  box-shadow: 0px 1px 0px #ceced9;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.ant-modal-title {
+  /* 장바구니 추가 */
+
+  position: relative;
+  width: 170px;
+  height: 42px;
+  left: 0px;
+  top: 0px;
+
+  /* Heading 3 */
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 130%;
+  /* identical to box height, or 42px */
+  letter-spacing: -0.04em;
+
+  color: #212529;
+}
+.ant-modal-close {
+  /* Character/close */
+
+  position: relative;
+  width: 24px;
+  height: 24px;
+  left: 606px;
+}
+
+.ant-modal-body {
+  /* Frame 33558 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px 30px;
+  gap: 49px;
+
+  width: 684px;
+  height: 64px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.ant_modal_body_content {
+  /* 장바구니에 정상적으로 추가되었습니다. */
+
+  width: 295px;
+  height: 22px;
+
+  font-family: "Noto Sans KR";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height, or 122% */
+  display: flex;
+  align-items: center;
+
+  color: #495057;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.ant-modal-footer {
+  /* Frame 33539 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  /* padding: 0px 30px 0px 521px; */
+  margin-left: -60px;
+  gap: 13px;
+
+  width: 684px;
+  height: 82px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+.cart__modal__more {
+  /* Button_48 */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 20px 14px;
+  gap: 5px;
+
+  width: 149px;
+  height: 50px;
+
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  cursor: pointer;
+}
+
+.cart__modal__more__text {
+  /* Buttom */
+
+  width: 109px;
+  height: 27px;
+
+  /* Body 1 */
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  /* identical to box height, or 27px */
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.04em;
+
+  color: #495057;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.cart__modal__shopping {
+  /* Button_48 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 20px 14px;
+  gap: 5px;
+
+  width: 123px;
+  height: 53px;
+
+  background: #2b8a3e;
+  border-radius: 4px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  cursor: pointer;
+}
+.cart__modal__shopping__text {
+  /* Buttom */
+
+  width: 83px;
+  height: 27px;
+
+  /* Body 1 */
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  /* identical to box height, or 27px */
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.04em;
+
+  color: #ffffff;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.cart__item__count {
+  border-radius: 9px;
+
+  /* Ellipse 1 */
+
+  position: relative;
+  width: 16px;
+  height: 16px;
+  left: 3px;
+  top: -4px;
+}
+
+#cartCount {
+  font-size: 12px;
+  background: #ff0000;
+  color: #fff;
+  padding: 0 5px;
+  vertical-align: top;
+  margin-left: -10px;
+  margin-bottom: 20px;
 }

@@ -1,0 +1,108 @@
+.footer {
+  /* footer */
+
+  width: 1920px;
+  height: 386px;
+
+  background: #333333;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+  position: absolute;
+}
+.footer__container {
+  /* Frame 41535 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 0px;
+  gap: 20px;
+
+  position: absolute;
+  width: 1200px;
+  height: 348px;
+  left: calc(50% - 1200px / 2 + 4px);
+  top: 0px;
+}
+.footer__logo {
+  /* logo */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  width: 132.45px;
+  height: 80px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.footer__logo__text {
+  /* logo */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  width: 132.45px;
+  height: 80px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  color: rgba(255, 255, 255, 1);
+}
+
+.footer__copyright {
+  /* Frame 41534 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+
+  width: 395px;
+  height: 24px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+.footer__copyright__text {
+  /* ©2024 by metaplants. Proudly created with Metaflyer.io */
+
+  width: 395px;
+  height: 24px;
+
+  font-family: "Pretendard Variable";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  letter-spacing: -0.015em;
+
+  color: #ffffff;
+
+  opacity: 0.9;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}

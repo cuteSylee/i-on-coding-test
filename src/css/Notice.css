@@ -1,0 +1,174 @@
+/* NOTICE */
+.notice {
+  /* Frame 41512 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+
+  width: 1920px;
+  height: 77px;
+
+  background: #f7f7f7;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  overflow: hidden;
+}
+
+.notice__content {
+  /* Frame 45 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 22px 0px;
+  gap: 50px;
+
+  width: 1200px;
+  height: 30px;
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  /* line-height: 27px; */
+}
+
+.notice__category {
+  /* Frame 41513 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+
+  width: 125px;
+  height: 27px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.notice__label {
+  /* Frame 41514 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+
+  width: 687px;
+  height: 27px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.notice__date {
+  /* Frame 41515 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 24px;
+
+  width: 287px;
+  height: 27px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.notice__category__text {
+  /* [신제품] */
+
+  width: 57px;
+  height: 27px;
+
+  /* Body 1 */
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  /* identical to box height, or 27px */
+  text-align: center;
+  letter-spacing: -0.04em;
+
+  color: #212529;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.notice__label__text {
+  /* 03월 시즌 상품 - 튤립 */
+
+  width: 147px;
+  height: 27px;
+
+  /* Body 1 */
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  /* identical to box height, or 27px */
+  text-align: center;
+  letter-spacing: -0.04em;
+
+  color: #212529;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.notice__date__text {
+  /* 2024-02-20 */
+
+  width: 97px;
+  height: 27px;
+
+  /* Body 1 */
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  /* identical to box height, or 27px */
+  text-align: center;
+  letter-spacing: -0.04em;
+
+  color: #212529;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.notice__slide {
+  height: 77px;
+  transition: transform 2s;
+}
