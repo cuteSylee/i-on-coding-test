@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "../css/Products.css";
 import data from "../data/meta.json";
 import CartIcon from "./CartIcon";
