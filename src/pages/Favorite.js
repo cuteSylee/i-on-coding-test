@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "../css/Favorite.css";
 import { useCartStore, useFavoriteStore } from "../utils/globalState";
 import { handleCart, handleFavorite } from "../utils/common";
